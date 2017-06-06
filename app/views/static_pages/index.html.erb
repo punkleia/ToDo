@@ -1,3 +1,12 @@
+<head>
+<title>To Do</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
 <section class="todoapp">
   <header class="header">
     <h1>To Do</h1>
@@ -13,6 +22,8 @@
   </section>
 </section>
 
+
 <section class="author">
   A <%= link_to "todo-mvc", "http://todomvc.com" %> application, built by <%= link_to "Michelle Jean", "http://github.com/PunkLeia" %>
 </section>
+</body>

@@ -1,6 +1,8 @@
+@import "bootstrap";
 // Place all the styles related to the tasks controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
 
 html,
 body {
@@ -28,6 +30,9 @@ body {
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.4em;
   background: #f5f5f5;
+  background-image: url('scrollsBIG.png');
+  // background-repeat: repeat-x;
+  background-position: center center-fixed;
   color: #4d4d4d;
   min-width: 230px;
   max-width: 550px;
@@ -72,13 +77,15 @@ body {
 }
 
 .todoapp h1 {
+  font-family: 'cherry_swashbold';
   position: absolute;
-  top: -155px;
+  top: -120px;
   width: 100%;
   font-size: 100px;
   font-weight: 100;
   text-align: center;
-  color: rgba(175, 47, 47, 0.15);
+  // color: rgba(184, 141, 80, 0.4);
+  color: white;
   -webkit-text-rendering: optimizeLegibility;
   -moz-text-rendering: optimizeLegibility;
   text-rendering: optimizeLegibility;
