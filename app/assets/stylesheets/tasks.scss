@@ -31,8 +31,7 @@ body {
   line-height: 1.4em;
   background: #f5f5f5;
   background-image: url('scrollsBIG.png');
-  // background-repeat: repeat-x;
-  background-position: center center-fixed;
+  background-position: center center-fixed 100%;
   color: #4d4d4d;
   min-width: 230px;
   max-width: 550px;
@@ -389,8 +388,12 @@ html .clear-completed:active {
 .author {
   text-align: center;
   margin-bottom: 20px;
+  color: white;
+  font-size: 18px;
 }
 
 .author a {
-  color: #b83f45;
+  // color: #b83f45;
+  color: white;
+  font-weight: bold;
 }
