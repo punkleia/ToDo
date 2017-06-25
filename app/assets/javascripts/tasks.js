@@ -1,4 +1,3 @@
-
 $(function() {
 // the taskHtml method takes in a JS representation of the task and produces an HTML represenetation using <li> tags
   function taskHtml(task) {
